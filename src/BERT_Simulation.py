@@ -2,7 +2,7 @@ from transformers import BertForSequenceClassification
 from transformers import BertTokenizer
 import torch
 
-class BERT():
+class BERT:
     def __init__(self):
         self.output = "../"
     
