@@ -1,6 +1,6 @@
 #Data Extraction
 
-file_train_indmnTknzd = "data/tokenized/in_domain_train.tsv"
+file_train_indmnTknzd = "../data/tokenized/in_domain_train.tsv"
 
 def getLinesFromFile(fname):
 	""" Given a text file, extract each line and put it into a list """
@@ -24,4 +24,4 @@ def extractFromDataset(datasetLines):
 	                    # [source, acceptability label, acceptability label (original), sentence (with trailing newline removed)]
 
 # Test line is below
-print(f"Results: {extractFromDataset((getLinesFromFile(file_train_indmnTknzd))[:3])}")
+#print(f"Results: {extractFromDataset((getLinesFromFile(file_train_indmnTknzd)))}")
